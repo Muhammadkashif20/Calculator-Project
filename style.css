@@ -1,0 +1,87 @@
+/* Styling For Calculator */
+body {
+  background-color: #23282e;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.calMainbox {
+  background-color: #23282e;
+  width: 20rem;
+  height: 27rem;
+  border: 3px solid #3a3d44;
+  border-radius: 10px;
+  margin-top: 3.5rem;
+  box-shadow: 1px 1px 12px #3a3d44;
+}
+.displayInput {
+  position: relative;
+}
+#dis-Value {
+  background-color: #23282e;
+  border: none;
+  outline: none;
+  width: 20rem;
+  height: 5rem;
+  position: absolute;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  left: 0rem;
+  text-align: right;
+  font-size: 33px;
+  line-height: 5rem;
+  box-sizing: border-box;
+  padding-right: 2rem;
+  color: white;
+}
+.cal-Btns {
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: column;
+}
+.row1,
+.row2,
+.row3,
+.row4,
+.row5 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 1rem;
+  
+}
+.row1:hover {
+  color: white;
+}
+#AC,
+#DE,
+#percentage,
+#divide {
+    color: rgb(28, 209, 28);
+}
+#AC:hover,
+#DE:hover,
+#percentage:hover,
+#divide:hover {
+  color: white;
+}
+#multiply,#subtract,#add,#equal{
+  color: rgb(28, 209, 28);
+    
+}
+#multiply:hover,#subtract:hover,#add:hover,#equal:hover{
+    color: white;
+  }
+button {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  color: white;
+  border: none;
+  background: #1e21288f;
+  box-shadow: -2px -1px 12px #52565f;
+  font-size: 17px;
+}
+button:hover {
+  background-color: #fb7c15;
+  cursor: pointer;
+  color: white;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="image/calculate.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <center>
+            <div class="calMainbox">    
+                <div class="displayInput">
+                    <input type="text" id="dis-Value" readonly >
+                </div>
+                <div class="cal-Btns">
+                    <div class="row1">
+                        <button onclick="delAll('AC')" id="AC">AC</button>
+                        <button onclick="delsequence('DE')" id="DE">DE</button>
+                        <button onclick="valueGet('%')" id="percentage">%</button>
+                        <button onclick="valueGet('/')" id="divide">/</button>
+                    </div>
+                    <div class="row2">
+                        <button onclick="valueGet('7')">7</button>
+                        <button onclick="valueGet('8')">8</button>
+                        <button onclick="valueGet('9')">9</button>
+                        <button onclick="valueGet('*')" id="multiply">*</button>
+                    </div>
+                    <div class="row3">
+                        <button onclick="valueGet('4')">4</button>
+                        <button onclick="valueGet('5')">5</button>
+                        <button onclick="valueGet('6')">6</button>
+                        <button onclick="valueGet('-')" id="subtract">-</button>
+                    </div>
+                    <div class="row4">
+                        <button onclick="valueGet('1')">1</button>
+                        <button onclick="valueGet('2')">2</button>
+                        <button onclick="valueGet('3')">3</button>
+                        <button onclick="valueGet('+')" id="add">+</button>
+                    </div>
+                    <div class="row5">
+                        <button onclick="valueGet('00')">00</button>
+                        <button onclick="valueGet('0')">0</button>
+                        <button onclick="valueGet('.')">.</button>
+                        <button onclick="valueResult('=')" id="equal">=</button>
+                    </div>
+                </div>
+            </div>
+        </center>
+        </div>
+    <script src="app.js"></script>
+</body>
+</html>
