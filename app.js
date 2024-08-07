@@ -23,5 +23,3 @@ function valueResult() {
         disValue.value = 'Syntax Error'
     }
 }
-
-
